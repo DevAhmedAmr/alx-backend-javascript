@@ -32,7 +32,7 @@ class StudentHolberton {
     return this._holbertonClass;
   }
 
-  fullStudentDescription() {
+  get fullStudentDescription() {
     return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
   }
 }
