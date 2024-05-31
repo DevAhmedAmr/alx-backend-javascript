@@ -2,6 +2,7 @@
 class Building {
   constructor(sqft) {
     this.sqft = sqft;
+    this.evacuationWarningMessage();
   }
 
   set sqft(value) {
