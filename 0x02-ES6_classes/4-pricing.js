@@ -26,6 +26,11 @@ class Pricing {
   displayFullPrice() {
     return `${this.amount} ${this.currency.displayFullCurrency()}`;
   }
+
+  // eslint-disable-next-line class-methods-use-this
+  static convertPrice(amount, conversionRate) {
+    return amount * conversionRate;
+  }
 }
 
 module.exports = Pricing;
