@@ -1,4 +1,7 @@
-import listOfStudents, { StudentHolberton, HolbertonClass } from './9-hoisting';
+import listOfStudents, {
+  StudentHolberton,
+  HolbertonClass
+} from './9-hoisting.js';
 
 test('initialization works correctly', () => {
   expect(listOfStudents[0] instanceof StudentHolberton).toBe(true);
